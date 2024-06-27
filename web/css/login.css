@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #505050, #282828);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-login {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    color: #333;
+}
+
+.form-login h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    color: #555;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #2575fc;
+}
+
+#loginBtn {
+    background-color: #2575fc;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+#loginBtn:hover {
+    background-color: #1e5aa7;
+}
+
+#loginBtn:active {
+    background-color: #144177;
+}
+
+.social-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-buttons button {
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.social-buttons button:hover {
+    background-color: #f0f0f0;
+}
+
+.social-buttons i {
+    font-size: 20px;
+    line-height: 40px;
+    color: #2575fc;
+}
+
+#alertMessage {
+    text-align: center;
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+.user-icon {
+    width: 80px; /* Ajuste o tamanho conforme necessário */
+    height: 80px;
+    margin: 0 auto 20px; /* Centraliza a imagem abaixo do título */
+    display: block;
+}

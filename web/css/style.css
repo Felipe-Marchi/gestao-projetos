@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h3 {
+    font-size: 1.3em; /* Tamanho maior que h3 */
+}
+
+
+.form-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.form-container-gerencia {
+    width: 75%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+.form-container h2 {
+    margin: 0 0 25px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 5px 0;
+    color: #555;
+}
+
+.input-group input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group select {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.input-group textarea {
+    width: 95%;
+    height: 80px; /* Defina a altura desejada em pixels ou outra unidade */
+    min-height: 40px; /* Altura mínima permitida */
+    max-height: 160px; /* Altura máxima permitida */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    resize: vertical; /* Apenas redimensiona verticalmente */
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 10%;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left; /* Alinha o texto à esquerda nas células */
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Aumenta o espaçamento interno nas células */
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2; /* Cor de fundo para os cabeçalhos */
+}
+
+.project-box {
+    width: 95%; /* Defina a largura da caixa do projeto conforme necessário */
+    margin: 20px auto; /* Centraliza a caixa horizontalmente */
+    text-align: left; /* Alinha o texto dos detalhes à esquerda */
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex; /* Adiciona a propriedade flex para os itens se alinharem na mesma linha */
+    justify-content: space-between; /* Alinha os itens na mesma linha, com espaço entre eles */
+
+}
+
+.project-name {
+    max-width: 70%;
+}
+
+.details {
+    display: none; /* Esconde os detalhes por padrão */
+    padding-top: 10px; /* Adiciona espaço acima dos detalhes */
+}
+
+.clickable-text {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+}
+
+
+.button-item {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center; /* Centraliza o texto */
+}
+
+
+
