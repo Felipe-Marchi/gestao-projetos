@@ -18,3 +18,14 @@ projetos, definir os requisitos de software e mantê-los cadastrados por meio de
 - **JavaScript:** Utilizado para validações e interatividade no lado do cliente.
 - **PostgreSQL**: Banco de dados relacional.
 - **iText:** Biblioteca para geração de relatórios em PDF.
+
+## Imagens do Projeto
+
+### Tela de login
+<img src="src/java/imagens/login.png" alt="Login" width="600">
+
+### Cadastro de Projetos
+<img src="src/java/imagens/cadProjeto.png" alt="Login" width="600">
+
+### Lista de Projetos
+<img src="src/java/imagens/gerenciaProjeto.png" alt="Login" width="600">
